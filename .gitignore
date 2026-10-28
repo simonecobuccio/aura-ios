@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------
+# macOS
+# ---------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# ---------------------------------------------------------------
+# Xcode - user-specific and generated
+# ---------------------------------------------------------------
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+
+# Build products
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods / Carthage (if ever added)
+Pods/
+Carthage/Build/
+
+# ---------------------------------------------------------------
+# Secrets - never commit real API keys
+# ---------------------------------------------------------------
+Secrets.swift
+*.secret
+.env
